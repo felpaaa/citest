@@ -16,5 +16,11 @@ public class DivisionTest {
 		Division d = new Division();
 		assertEquals("testing... testSomeLogic", true, d.someLogic(2));
 	}
+	
+	@Test
+	public void testSomeLogic2(){
+		Division d = new Division();
+		assertEquals("testing... testSomeLogic2", true, d.someLogic(3));
+	}
 
 }
