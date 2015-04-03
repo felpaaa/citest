@@ -12,15 +12,21 @@ public class DivisionTest {
 	
 	
 	@Test
-	public void testSomeLogic(){
+	public void testSomeLogic2(){
 		Division d = new Division();
-		assertEquals("testing... testSomeLogic", true, d.someLogic(2));
+		assertEquals("testing... testSomeLogic", true, d.someLogic2(2));
 	}
 	
 	@Test
-	public void testSomeLogic2(){
+	public void testSomeLogic3(){
 		Division d = new Division();
-		assertEquals("testing... testSomeLogic2", true, d.someLogic(3));
+		assertEquals("testing... testSomeLogic2", true, d.someLogic3(3));
+	}
+	
+	@Test
+	public void testSomeLogic4(){
+		Division d = new Division();
+		assertEquals("testing... testSomeLogic2", true, d.someLogic4(3));
 	}
 
 }
